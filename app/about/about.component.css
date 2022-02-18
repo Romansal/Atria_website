@@ -1,0 +1,57 @@
+.row{
+  margin: 0%;
+  padding: 0%;
+}
+#profile{
+
+
+margin: 0;
+padding: 8% 10% 5% 20%;
+
+}
+#foto{
+
+  margin: 0%;
+  padding: 0%;
+
+
+
+}
+#texto{
+  text-align:left;
+  line-height: 30px;
+  font-size: medium;
+
+
+
+}
+#myr{
+  position:absolute;
+  left: 18%;
+  top: 35%;
+}
+.btn btn-secondary{
+  text-align:left;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 576px) {
+
+
+  #foto {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 820px) {
+#profile{
+  padding: 0%;
+}
+#myr{
+  display: none;
+  visibility: hidden;
+}
+}
+
+
